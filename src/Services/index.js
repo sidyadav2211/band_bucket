@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiData = axios.create({
-	baseURL: 'https://my-json-server.typicode.com/band_bucket/mens-watch',
+	baseURL:'https://my-json-server.typicode.com/sidyadav2211/band_bucket',
 	// baseURL: 'http://localhost:3000',
 	withCredentials: false,
 	headers: {
