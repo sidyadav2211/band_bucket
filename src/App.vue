@@ -2,7 +2,10 @@
   <div class="card relative z-2 gap-1">
         <PMenubar :model="items" class="mr-2">
             <template #start >
-                <img  alt="BandBucket" src="./assets/MainIcons.jpg" height="50" class="mr-2"  />
+                <Router-link to="/">
+
+                    <img  alt="BandBucket" src="./assets/MainIcons.jpg" height="50" class="mr-2"  />
+                </Router-link>
             </template>
         </PMenubar>
     </div>

@@ -10,5 +10,11 @@ const apiData = axios.create({
 });
 
 export default {
+    getMenWatchList(){
+        return apiData.get('/mens-watch')
+    },
+    getMenWatchDetails(id){
+        return apiData.get(`/mens-watch/${id}`)
+    }
     
 }

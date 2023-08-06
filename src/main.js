@@ -11,6 +11,8 @@ import InputText from 'primevue/inputtext';
 import Carousel from 'primevue/carousel';
 import '/node_modules/primeflex/primeflex.css';
 import Tag from 'primevue/tag';
+import DataView from 'primevue/dataview';
+
 
 const app = createApp(App)
 app.component('PMenubar', Menubar)
@@ -18,6 +20,7 @@ app.component('PInputText',InputText)
 app.component('PButton', Button)
 app.component('PCarousel', Carousel);
 app.component('PTag', Tag);
+app.component('PDataView', DataView);
 
 
 app.use(router)

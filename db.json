@@ -1,0 +1,120 @@
+{
+	"mens-watch": [
+        {
+			"id": 1,
+			"name": "Garmin Smart Watch Forerunner 745",
+			"price": "51,990.00",
+			"discountPrice":"34,990.00",
+			"img":"m_watch1.jpg",
+
+			"variants": [
+				{
+					"variantId":"01",
+					"variantColor": "red",
+					"variantImg": "m_watch1.jpg"
+				},
+				{
+					"variantId":"02",
+					"variantColor": "black",
+					"variantImg": "forrunner745.jpg"
+				}
+			],
+			"status":"INSTOCK"
+		},
+		{
+			"id": 2,
+			"name": "Garmin Smart Watch Fenix 6X",
+			"price": "88,490.00",
+			"img": "fenix6x.jpg",
+
+			"discountPrice": "₹59,990.00",
+			"variants": [
+				{
+					"variantId": "03",
+					"variantColor": "black",
+					"variantImg": "fenix6x.jpg"
+				}
+			],
+
+			"status": "LOWSTOCK"
+		},
+		{
+			"id": 3,
+			"name": "Garmin Forerunner 965",
+			"price": "67,490.00",
+			"img": "forrunner965blk.jpg",
+
+			"variants": [
+				{
+					"variantId": "04",
+					"variantColor": "black",
+					"variantImg": "forrunner965blk.jpg"
+				},
+				{
+					"variantId": "05",
+					"variantColor": "yellow",
+					"variantImg": "forrunner965.jpg"
+				}
+			],
+
+			"status": "OUTOFSTOCK"
+		},
+		{
+			"id": 4,
+			"name": "Garmin Smart Watch Fenix 7 Sapphire Solar",
+			"price": "1,00,990.00",
+			"img": "fenix7 Sapphire.jpg",
+
+			"variants": [
+				{
+					"variantId": "06",
+					"variantColor": "whitesmoke",
+					"variantImg": "fenix7 Sapphirejpg"
+				}
+				
+			],
+
+			"status": "LOWSTOCK"
+		},
+		{
+			"id": 5,
+			"name": "Garmin Smart Watch Fenix 7",
+			"price": "78,490.00",
+			"discountPrice":"68,990.00",
+			"img": "fenix7.jpg",
+
+			"variants": [
+				{
+					"variantId": "07",
+					"variantColor": "black",
+					"variantImg": "fenix7.jpg"
+				}
+			],
+
+			"status": "INSTOCK"
+		},
+		{
+			"id": 6,
+			"name": "Garmin Smart Watch Fenix 6S",
+			"price": "82,990.00",
+			"discountPrice":"39,990.00",
+			"img": "fenix6s.jpg",
+			"variants": [
+				{
+					"variantId": "08",
+					"variantColor": "beige",
+					"variantImg": "fenix6s.jpg"
+				},
+				{
+					"variantId": "09",
+					"variantColor": "black",
+					"variantImg": "fenix6sblk.jpg"
+				}
+			],
+			
+
+			"status": "INSTOCK"
+		}
+	]
+
+}

@@ -110,17 +110,19 @@ import FooterPage from '../components/FooterPage.vue'
     <div class="grid align-items-center m-auto w-9">
         
         <div class="col-12 md:col-6 ">
-            <div class="relative text-center surface-border border-round ">
+            <Router-Link :to="{name:'MensWatch'}">
+            <div class="relative text-center surface-border border-round cursor-pointer ">
             
-                <img  src="../assets//garmin7.jpg" alt="pic" height="450" class="w-9 shadow-2" />
+                <img  src="../assets/garmin7.jpg" alt="pic" height="450" class="w-9 shadow-2" />
                 <PTag id="tag-overImg" class="mt-1 text-base"  severity="success" value="Men" />
                 
         </div>
+        </Router-Link>
         </div>
         <div class="col-12 md:col-6">
             <div class=" relative text-center surface-border border-round">
 
-                <img src="../assets//womengarmin.jpg" alt="pic" height="450" class="w-9 shadow-2" />
+                <img src="../assets/womengarmin.jpg" alt="pic" height="450" class="w-9 shadow-2" />
                 <PTag id="tag-overImg" class="mt-1 text-base" severity="info" value="Women" />
             </div>
         </div>
